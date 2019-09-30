@@ -6,13 +6,13 @@ sudo sh get-docker.sh
 sudo usermod -aG docker linaro
 
 sudo echo "" > /etc/apt/sources.list
-sudo cp ./souce/sources.list.py6 /etc/apt/sources.list
+sudo cp ./source/sources.list.py6 /etc/apt/sources.list
 
 sudo apt update
 sudo apt install -y python3.6
 
 sudo echo "" > /etc/apt/sources.list
-sudo cp ./souce/sources.list.orig /etc/apt/sources.list
+sudo cp ./source/sources.list.orig /etc/apt/sources.list
 
 sudo apt update
 
