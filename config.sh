@@ -32,6 +32,8 @@ sudo cp dist/docker-compose-Linux-armv7l /usr/local/bin/docker-compose
 sudo chown root:root /usr/local/bin/docker-compose
 sudo chmod 0755 /usr/local/bin/docker-compose
 
+sudo curl -L https://raw.githubusercontent.com/docker/compose/1.24.1/contrib/completion/bash/docker-compose -o /etc/bash_completion.d/docker-compose
+
 docker-compose version
 
 sudo reboot
